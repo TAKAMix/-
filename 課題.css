@@ -63,3 +63,18 @@ footer {
   height: 50px;
   background-color: #aaaaaa
 }
+
+/* メディアクエリ*/
+@media screen and (max-width:768px) {
+
+  .main-box {
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  main {
+    width: 100%;
+    display: block;
+  }
+
+}
